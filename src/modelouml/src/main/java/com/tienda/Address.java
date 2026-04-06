@@ -1,9 +1,9 @@
-
+package com.tienda;
 
 /**
- * Class Real
+ * Class Address
  */
-public class Real {
+public class Address {
 
   //
   // Fields
@@ -13,7 +13,7 @@ public class Real {
   //
   // Constructors
   //
-  public Real () { };
+  public Address () { };
   
   //
   // Methods

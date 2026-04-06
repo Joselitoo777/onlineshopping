@@ -1,3 +1,4 @@
+package com.tienda;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class Payment {
   //
 
   private String id;
-  private date paid;
+  private Date paid;
   private real total;
   private String details;
   
@@ -50,7 +51,7 @@ public class Payment {
    * Set the value of paid
    * @param newVar the new value of paid
    */
-  public void setPaid (date newVar) {
+  public void setPaid (Date newVar) {
     paid = newVar;
   }
 
@@ -58,7 +59,7 @@ public class Payment {
    * Get the value of paid
    * @return the value of paid
    */
-  public date getPaid () {
+  public Date getPaid () {
     return paid;
   }
 

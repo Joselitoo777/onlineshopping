@@ -1,9 +1,10 @@
+package com.tienda;
 
 
 /**
- * Class supplier
+ * Class Supplier
  */
-public class supplier {
+public class Supplier {
 
   //
   // Fields
@@ -13,7 +14,7 @@ public class supplier {
   //
   // Constructors
   //
-  public supplier () { };
+  public Supplier () { };
   
   //
   // Methods

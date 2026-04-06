@@ -1,3 +1,4 @@
+package com.tienda;
 
 import java.util.*;
 
@@ -13,7 +14,7 @@ public class Product {
 
   private String id;
   private String name;
-  private supplier supplier;
+  private Supplier supplier;
   
   //
   // Constructors
@@ -65,7 +66,7 @@ public class Product {
    * Set the value of supplier
    * @param newVar the new value of supplier
    */
-  public void setSupplier (supplier newVar) {
+  public void setSupplier (Supplier newVar) {
     supplier = newVar;
   }
 
@@ -73,7 +74,7 @@ public class Product {
    * Get the value of supplier
    * @return the value of supplier
    */
-  public supplier getSupplier () {
+  public Supplier getSupplier () {
     return supplier;
   }
 

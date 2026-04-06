@@ -1,3 +1,4 @@
+package com.tienda;
 
 import java.util.*;
 
@@ -12,10 +13,10 @@ public class Account {
   //
 
   private String id;
-  private address billing_address;
+  private Address billing_address;
   private boolean is_closed;
-  private date open;
-  private date closed;
+  private Date open;
+  private Date closed;
   private Shopping Cart nuevo_atributo;
   private Order nuevo_atributo_1;
   
@@ -53,7 +54,7 @@ public class Account {
    * Set the value of billing_address
    * @param newVar the new value of billing_address
    */
-  public void setBilling_address (address newVar) {
+  public void setBilling_address (Address newVar) {
     billing_address = newVar;
   }
 
@@ -61,7 +62,7 @@ public class Account {
    * Get the value of billing_address
    * @return the value of billing_address
    */
-  public address getBilling_address () {
+  public Address getBilling_address () {
     return billing_address;
   }
 
@@ -85,7 +86,7 @@ public class Account {
    * Set the value of open
    * @param newVar the new value of open
    */
-  public void setOpen (date newVar) {
+  public void setOpen (Date newVar) {
     open = newVar;
   }
 
@@ -93,7 +94,7 @@ public class Account {
    * Get the value of open
    * @return the value of open
    */
-  public date getOpen () {
+  public Date getOpen () {
     return open;
   }
 
@@ -101,7 +102,7 @@ public class Account {
    * Set the value of closed
    * @param newVar the new value of closed
    */
-  public void setClosed (date newVar) {
+  public void setClosed (Date newVar) {
     closed = newVar;
   }
 
@@ -109,7 +110,7 @@ public class Account {
    * Get the value of closed
    * @return the value of closed
    */
-  public date getClosed () {
+  public Date getClosed () {
     return closed;
   }
 

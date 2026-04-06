@@ -1,9 +1,10 @@
+package com.tienda;
 
 
 /**
- * Class Address
+ * Class Phone
  */
-public class Address {
+public class Phone {
 
   //
   // Fields
@@ -13,7 +14,7 @@ public class Address {
   //
   // Constructors
   //
-  public Address () { };
+  public Phone () { };
   
   //
   // Methods

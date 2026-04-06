@@ -1,3 +1,4 @@
+package com.tienda;
 
 import java.util.*;
 
@@ -11,7 +12,7 @@ public class Shopping_Cart {
   // Fields
   //
 
-  private date created;
+  private Date created;
   
   //
   // Constructors
@@ -31,7 +32,7 @@ public class Shopping_Cart {
    * Set the value of created
    * @param newVar the new value of created
    */
-  public void setCreated (date newVar) {
+  public void setCreated (Date newVar) {
     created = newVar;
   }
 
@@ -39,7 +40,7 @@ public class Shopping_Cart {
    * Get the value of created
    * @return the value of created
    */
-  public date getCreated () {
+  public Date getCreated () {
     return created;
   }
 

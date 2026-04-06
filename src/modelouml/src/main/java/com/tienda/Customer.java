@@ -1,3 +1,4 @@
+package com.tienda;
 
 import java.util.*;
 
@@ -12,8 +13,8 @@ public class Customer {
   //
 
   private String id;
-  private address address;
-  private phone phone;
+  private Address address;
+  private Phone phone;
   private String email;
   private Account nuevo_atributo;
   private Account nuevo_atributo_1;
@@ -53,7 +54,7 @@ public class Customer {
    * Set the value of address
    * @param newVar the new value of address
    */
-  public void setAddress (address newVar) {
+  public void setAddress (Address newVar) {
     address = newVar;
   }
 
@@ -61,7 +62,7 @@ public class Customer {
    * Get the value of address
    * @return the value of address
    */
-  public address getAddress () {
+  public Address getAddress () {
     return address;
   }
 
@@ -69,7 +70,7 @@ public class Customer {
    * Set the value of phone
    * @param newVar the new value of phone
    */
-  public void setPhone (phone newVar) {
+  public void setPhone (Phone newVar) {
     phone = newVar;
   }
 
@@ -77,7 +78,7 @@ public class Customer {
    * Get the value of phone
    * @return the value of phone
    */
-  public phone getPhone () {
+  public Phone getPhone () {
     return phone;
   }
 

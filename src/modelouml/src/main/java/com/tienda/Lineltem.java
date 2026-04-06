@@ -1,3 +1,4 @@
+package com.tienda;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class Lineltem {
   //
 
   private int quantity;
-  private price price;
+  private double price;
   
   //
   // Constructors
@@ -48,7 +49,7 @@ public class Lineltem {
    * Set the value of price
    * @param newVar the new value of price
    */
-  public void setPrice (price newVar) {
+  public void setPrice (double newVar) {
     price = newVar;
   }
 
@@ -56,7 +57,7 @@ public class Lineltem {
    * Get the value of price
    * @return the value of price
    */
-  public price getPrice () {
+  public double getPrice () {
     return price;
   }
 

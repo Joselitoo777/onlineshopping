@@ -1,3 +1,4 @@
+package com.tienda;
 
 import java.util.*;
 
@@ -12,9 +13,9 @@ public class Order {
   //
 
   private String number;
-  private date ordered;
-  private date shipped;
-  private address ship_to;
+  private Date ordered;
+  private Date shipped;
+  private Address ship_to;
   private OrderStatus status;
   private real total;
   
@@ -52,7 +53,7 @@ public class Order {
    * Set the value of ordered
    * @param newVar the new value of ordered
    */
-  public void setOrdered (date newVar) {
+  public void setOrdered (Date newVar) {
     ordered = newVar;
   }
 
@@ -60,7 +61,7 @@ public class Order {
    * Get the value of ordered
    * @return the value of ordered
    */
-  public date getOrdered () {
+  public Date getOrdered () {
     return ordered;
   }
 
@@ -68,7 +69,7 @@ public class Order {
    * Set the value of shipped
    * @param newVar the new value of shipped
    */
-  public void setShipped (date newVar) {
+  public void setShipped (Date newVar) {
     shipped = newVar;
   }
 
@@ -76,7 +77,7 @@ public class Order {
    * Get the value of shipped
    * @return the value of shipped
    */
-  public date getShipped () {
+  public Date getShipped () {
     return shipped;
   }
 
@@ -84,7 +85,7 @@ public class Order {
    * Set the value of ship_to
    * @param newVar the new value of ship_to
    */
-  public void setShip_to (address newVar) {
+  public void setShip_to (Address newVar) {
     ship_to = newVar;
   }
 
@@ -92,7 +93,7 @@ public class Order {
    * Get the value of ship_to
    * @return the value of ship_to
    */
-  public address getShip_to () {
+  public Address getShip_to () {
     return ship_to;
   }
 

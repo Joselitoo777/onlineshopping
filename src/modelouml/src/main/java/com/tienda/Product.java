@@ -1,7 +1,5 @@
 package com.tienda;
 
-import java.util.*;
-
 
 /**
  * Class Product

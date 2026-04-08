@@ -14,7 +14,7 @@ public class Payment {
 
   private String id;
   private Date paid;
-  private real total;
+  private Real total;
   private String details;
   
   //
@@ -67,7 +67,7 @@ public class Payment {
    * Set the value of total
    * @param newVar the new value of total
    */
-  public void setTotal (real newVar) {
+  public void setTotal (Real newVar) {
     total = newVar;
   }
 
@@ -75,7 +75,7 @@ public class Payment {
    * Get the value of total
    * @return the value of total
    */
-  public real getTotal () {
+  public Real getTotal () {
     return total;
   }
 

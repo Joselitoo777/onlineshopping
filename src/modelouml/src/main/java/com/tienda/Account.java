@@ -17,7 +17,7 @@ public class Account {
   private boolean is_closed;
   private Date open;
   private Date closed;
-  private Shopping Cart nuevo_atributo;
+  private Shopping_Cart nuevo_atributo;
   private Order nuevo_atributo_1;
   
   //
@@ -118,7 +118,7 @@ public class Account {
    * Set the value of nuevo_atributo
    * @param newVar the new value of nuevo_atributo
    */
-  public void setNuevo_atributo (Shopping Cart newVar) {
+  public void setNuevo_atributo (Shopping_Cart newVar) {
     nuevo_atributo = newVar;
   }
 
@@ -126,7 +126,7 @@ public class Account {
    * Get the value of nuevo_atributo
    * @return the value of nuevo_atributo
    */
-  public Shopping Cart getNuevo_atributo () {
+  public Shopping_Cart getNuevo_atributo () {
     return nuevo_atributo;
   }
 

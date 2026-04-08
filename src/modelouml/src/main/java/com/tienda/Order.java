@@ -2,6 +2,8 @@ package com.tienda;
 
 import java.util.*;
 
+import enumerado.OrderStatus;
+
 
 /**
  * Class Order
@@ -17,7 +19,7 @@ public class Order {
   private Date shipped;
   private Address ship_to;
   private OrderStatus status;
-  private real total;
+  private Real total;
   
   //
   // Constructors
@@ -117,7 +119,7 @@ public class Order {
    * Set the value of total
    * @param newVar the new value of total
    */
-  public void setTotal (real newVar) {
+  public void setTotal (Real newVar) {
     total = newVar;
   }
 
@@ -125,7 +127,7 @@ public class Order {
    * Get the value of total
    * @return the value of total
    */
-  public real getTotal () {
+  public Real getTotal () {
     return total;
   }
 
